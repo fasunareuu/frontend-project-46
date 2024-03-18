@@ -3,7 +3,7 @@ import { program } from "commander"
 import { fs } from 'file-system'
 import path from 'path'
 import * as parser from '../bin/parser.js'
-import { readFileSync } from 'node:fs';
+import diff from '../bin/getDiff.js'
 
 program
   .name('gendiff')
@@ -12,9 +12,8 @@ program
   .arguments('<filepath1> <filepath2>')
   .option('-f, --format [type]', 'output format')
   .action((path1, path2) => {
-    const file1 = fs.readFileSync(parser.resolvePath(path1), { encoding: 'utf-8' })
-    const file2 = fs.readFileSync(parser.resolvePath(path2), { encoding: 'utf-8' })
-    console.log(file1);
-    console.log(file2);
+    const file1 = JSON.parse(fs.readFileSync(parser.resolvePath(path1), { encoding: 'utf-8' }))
+    const file2 = JSON.parse(fs.readFileSync(parser.resolvePath(path2), { encoding: 'utf-8' }))
+    console.log(diff(file1, file2))
   })
 program.parse()
