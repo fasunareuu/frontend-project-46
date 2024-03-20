@@ -1,3 +1,5 @@
-import path from 'path'
+import path from 'path';
 
-export const resolvePath = (filePath) => path.resolve(process.cwd(), filePath);
+const resolvePath = (filePath) => path.resolve(process.cwd(), filePath);
+
+export default resolvePath;
