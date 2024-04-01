@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YadaDelta/frontend-project-46.git"
+    "url": "git+https://github.com/fasunareuu/frontend-project-46.git"
   },
   "author": "yadadelta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YadaDelta/frontend-project-46/issues"
+    "url": "https://github.com/fasunareuu/frontend-project-46/issues"
   },
-  "homepage": "https://github.com/YadaDelta/frontend-project-46#readme",
+  "homepage": "https://github.com/fasunareuu/frontend-project-46#readme",
   "dependencies": {
     "commander": "^10.0.0",
     "eslint": "^8.34.0",
