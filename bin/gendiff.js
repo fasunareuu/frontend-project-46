@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { program } from 'commander';
-import diffEngine from '../src/index.js';
+import { diffEngine } from '../src/index.js';
 
 program
   .name('gendiff')
