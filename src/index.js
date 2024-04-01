@@ -20,4 +20,4 @@ const diffEngine = (filepath1, filepath2, formatName = 'stylish') => {
   return formatter(diff, formatName);
 };
 
-export default diffEngine;
+export {diffEngine, getFullPath};
