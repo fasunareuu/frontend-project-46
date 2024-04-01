@@ -59,6 +59,10 @@ gendiff file1.json file2.json
 }
 ```
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7a08d56d01a260703e347b300f3ae001271bac2
 # Установка
 
 ```
@@ -86,9 +90,13 @@ options:
 ```
 gendiff -f plain file1.json file2.yaml
 ```
+<<<<<<< HEAD
 
 Пример такого вывода:
 
+=======
+Пример такого вывода:
+>>>>>>> c7a08d56d01a260703e347b300f3ae001271bac2
 ```
 Property 'common.follow' was added with value: false
 Property 'common.setting2' was removed
