@@ -1,5 +1,4 @@
 import { readFileSync } from 'node:fs';
-import { test, expect } from '@jest/globals';
 import formatter from '../src/formats/index.js';
 
 import diffEngine from '../src/index.js';
