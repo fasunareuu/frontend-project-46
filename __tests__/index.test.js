@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import formatter from '../src/formats/index.js';
+import {test, expect} from "@jest/globals"
 
 import {diffEngine} from '../src/index.js';
 import parser from '../src/parser.js';
