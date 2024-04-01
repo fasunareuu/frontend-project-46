@@ -9,6 +9,6 @@ program
   .arguments('<filepath1> <filepath2>')
   .option('-f, --format [type]', 'output format')
   .action((filepath1, filepath2 ) => {
-    console.log(diffEngine(getFullPath(filepath1), getFullPath(filepath2), program.opts().format));
+    console.log(diffEngine(filepath1, filepath2), program.opts().format);
   });
 program.parse();
