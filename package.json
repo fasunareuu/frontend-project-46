@@ -13,6 +13,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@jest/globals": "^29.7.0",
 		"commander": "^12.0.0",
 		"file-system": "^1.2.9",
 		"js-yaml": "^4.1.0",
