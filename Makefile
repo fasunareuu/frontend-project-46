@@ -7,5 +7,5 @@ lint:
 lint-fix:
 	npx eslint --fix .
 test:
-	npm run jest
+	npm test
 	
