@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 import { program } from 'commander';
-// import { fs } from 'file-system'
-// import * as parser from '../src/parser.js'
-// import diff from '../src/getDiff.js'
 import diffEngine from '../src/index.js';
 
 program
